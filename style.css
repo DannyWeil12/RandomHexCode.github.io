@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.container{ 
+    width: 95%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hex-colors{
+    text-align: center;
+}
+.hex-colors h1{
+    font-size: 2rem;
+}
+.hex-colors h2{
+    font-size: 2rem;
+    margin-top: 15%;
+}
+::selection{
+    color: black;
+}
